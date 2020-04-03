@@ -1,0 +1,17 @@
+
+type Question {
+    id: Int!
+    question_text: String
+    pub_date: String
+}
+
+type Choice {
+    id: Int!
+    choice_text: String
+    votes: Int
+}
+
+type Query {
+    questions(question_id: Int!): [Question]!
+    choices(question_id: Int, choice_id: Int): [Choice]!
+}

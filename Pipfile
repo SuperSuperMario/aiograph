@@ -1,0 +1,24 @@
+[[source]]
+name = "pypi"
+url = "https://mirrors.aliyun.com/pypi/simple/"
+verify_ssl = true
+
+[dev-packages]
+autopep8 = "*"
+aiohttp-devtools = "*"
+
+[packages]
+aiohttp = "*"
+cchardet = "*"
+aiodns = "*"
+tartiflette-aiohttp = "*"
+sqlalchemy = "*"
+aiomysql = "*"
+pyyaml = "*"
+mysqlclient = "*"
+
+[requires]
+python_version = "3.7"
+
+[pipenv]
+allow_prereleases = true
